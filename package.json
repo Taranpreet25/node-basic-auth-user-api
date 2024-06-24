@@ -1,0 +1,27 @@
+{
+  "name": "user-bassic-auth",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.9.0",
+    "sequelize": "^6.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
